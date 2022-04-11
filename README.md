@@ -13,7 +13,7 @@ PyTorch implementation of SAR-BagNet
 ## Train model
 1. Unzip the image. we provide the MSTAR dataset in the images folder 
 
-2. run trian_test.py.The training process is the same as a traditional CNNs.  This program includes the preprocessing operation of the data of this project, and different processing processes can be selected according to different tasks
+2. Run trian_test.py.The training process is the same as a traditional CNNs.  This program includes the preprocessing operation of the data of this project, and different processing processes can be selected according to different tasks
 
 3. utils.py can generate heatmaps of each SAR images
 ## Generate heatmap for SAR images
@@ -56,6 +56,6 @@ model_dir='D:/SAR-bagnet/saved_model'
 ```   
    N is the size of the heatmap, and C is the corresponding category of the heatmap 
 
-3. run utils.py to generate heatmap 
+3. Run utils.py to generate heatmap 
 ## Author contact information  
 If you have any questions, please contact me at 1441771519@qq.com
