@@ -23,10 +23,7 @@ model_urls = {'SAR_BagNet':''D:/SAR-bagnet/saved_model/model.pth''}
 model_dir='D:/SAR-bagnet/saved_model'
 ```   
   The above code is in the SAR_BagNet.py file,modify the corresponding code to correspond to your file location   
-2.Replace the  
-``` class ResNet(nn.Module):  
-        def forward(self,x)  
-``` in SAR-Bagnet.py with the following code 
+2.Replace the  ``` class ResNet(nn.Module):  def forward(self,x)  ``` in SAR-Bagnet.py with the following code 
 ```
     def forward(self, x):
         x = self.conv1(x)
